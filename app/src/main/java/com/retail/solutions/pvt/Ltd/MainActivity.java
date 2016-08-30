@@ -108,6 +108,9 @@ public class MainActivity extends Activity implements GSyncable {
     // this is my new created Sting
 
 
+    private String Name=null;
+
+
     VideoView videoView;
     TextView textView_scrolling;
     ImageView imageView;

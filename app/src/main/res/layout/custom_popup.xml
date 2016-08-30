@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="180dp"
+    android:background="#28465e"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Please Enter your Phone Number"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/edit_customermobile"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint=" Enter here phone no"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:maxLength="10"
+        android:background="@android:color/white"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="0.6"
+        android:layout_margin="10dp">
+
+
+        <Button
+            android:id="@+id/button_cutomer_ok"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="ok"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_weight="0.3"/>
+
+        <Button
+            android:id="@+id/button_customer_cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+
+</LinearLayout>
+

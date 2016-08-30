@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SyncLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<TextView
+		android:id="@+id/SyncParamTextView"
+		android:text="Test Application To Pass Neccessary Sync\n 
+Parameters to GoDB Sync Engine to\n
+Synchronize.n
+The parameters are\n 
+1. IP Address : {IP}\n  
+2. Port : {PORT}\n
+3. Sqlite DB Name : {DB}\n 
+4. Basepath : {BP}\n
+5. User Name : {UN}\n
+6. Password : {PWD}\n
+7. User Id (If Needed): {UID}\n
+8. Full Sync Or Partial Sync : {SM}\n
+9. Generate Logs (If needed) : {L}\n
+\n
+Note : After synchronization\n
+{DB}\n
+will be available in\n 
+/data/data/{PN}/" 
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+	</TextView>
+	<Button
+		android:id="@+id/TestSyncButton"
+		android:text="Sync"
+		android:textStyle="bold"
+		android:onClick="Test"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:gravity="center"
+		android:visibility="invisible">
+	</Button>
+	<!--<Button
+		android:id="@+id/RegisterNoti"
+		android:text="Register For Notifications"
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:gravity="center">
+	</Button>
+	<Button
+		android:id="@+id/UnRegisterNoti"
+		android:text="UnRegister For Notifications"
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:gravity="center">
+	</Button>-->
+</LinearLayout>

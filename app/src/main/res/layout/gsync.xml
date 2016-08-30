@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SyncLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="Sync Progress" />
+
+    <ProgressBar
+        android:id="@+id/status1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:max="15" />
+
+    <ProgressBar
+        android:id="@+id/status2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:max="15" />
+
+    <ProgressBar
+        android:id="@+id/status3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:max="15" />
+
+    <ScrollView
+        android:id="@+id/sv" 
+        android:layout_height="200dp"
+        android:layout_width="match_parent">
+	    <EditText
+	        android:id="@+id/itemstatus"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textMultiLine" >
+        <requestFocus />
+    </EditText>
+    </ScrollView>
+
+    <Button
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next_id"
+        android:layout_gravity="right"
+        android:layout_weight="0.07"
+        android:onClick="v"/>
+    <!--
+    <ScrollView android:layout_height="300dp"
+        android:layout_width="match_parent">
+		<TextView 
+		    android:layout_width="match_parent"
+		    android:layout_height="300dp"
+		    android:textSize="12sp"
+		    android:id="@+id/itemstatus"
+		    />
+	</ScrollView>
+	-->
+</LinearLayout>

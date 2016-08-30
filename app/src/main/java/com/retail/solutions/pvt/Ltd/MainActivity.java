@@ -104,6 +104,9 @@ public class MainActivity extends Activity implements GSyncable {
     private GSyncResultHandler gSyncResultNotifyHandler = new GSyncResultHandler();
     private GSyncItemStatusHandler gSyncItemStatusHandler = new GSyncItemStatusHandler();
 
+    private String myString=null;
+    // this is my new created Sting
+
 
     VideoView videoView;
     TextView textView_scrolling;

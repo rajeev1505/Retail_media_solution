@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 public class BootReciever extends BroadcastReceiver {
     public BootReciever() {
@@ -11,6 +12,9 @@ public class BootReciever extends BroadcastReceiver {
 
     // new change
     TextView tv;
+    
+    VideoView videoView1;
+    // second change made on 14-11-2016 12:46 pm
 
     @Override
     public void onReceive(Context context, Intent intent) {
